@@ -8,6 +8,35 @@
         android:id="@+id/square_blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/square_blue"/>
+        android:background="@drawable/big_square_blue" />
 
+    <ImageView
+        android:id="@+id/square_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/big_square_red"
+        android:translationX="360px"
+        android:translationY="360px" />
+
+    <ImageView
+        android:id="@+id/square_grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/big_square_grey"
+        android:translationX="0px"
+        android:translationY="720px" />
+
+    <ImageView
+        android:id="@+id/square_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/big_square_yellow"
+        android:translationX="360px"
+        android:translationY="1080px" />
+
+
+        <!--/>-->
+
+
+    <!--android:transformPivotX="360px"-->
 </RelativeLayout>

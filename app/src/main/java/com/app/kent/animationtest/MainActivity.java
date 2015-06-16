@@ -26,12 +26,18 @@ public class MainActivity extends Activity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
-
-
         initView();
         //getDeviceInfo();
 
     }
+
+
+
+    private ImageView blue;
+    private void initView() {
+        blue = (ImageView) findViewById(R.id.square_blue);
+    }
+
 
     private void getDeviceInfo() {
 
@@ -85,10 +91,5 @@ public class MainActivity extends Activity {
 
         Log.e(TAG, "3: screenWidth = " + screenWidth + ", screenHeight = " + screenHeight);
 
-    }
-
-    private ImageView blue;
-    private void initView() {
-        blue = (ImageView) findViewById(R.id.square_blue);
     }
 }
